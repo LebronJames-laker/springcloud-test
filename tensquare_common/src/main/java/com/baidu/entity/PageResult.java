@@ -12,6 +12,6 @@ import java.util.List;
 public class PageResult<T> {
 
     private long total;//总记录数
-    private List<T> rows;//的撒旦阿萨
+    private List<T> rows;//的撒旦阿萨 das dsad asd asd
 
 }
