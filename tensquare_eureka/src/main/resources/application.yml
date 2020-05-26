@@ -1,0 +1,8 @@
+server:
+  port: 6868  #监听的端口
+eureka:
+  client:
+    fetch-registry: false #是否检索服务。该应用为服务注册中心，职责为注册和发现服务，无需检索服务，设置为 false
+    register-with-eureka: false #不将自己注册到eureka服务中
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka/ #eureka客户端和服务端通信的地址
